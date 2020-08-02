@@ -19,12 +19,12 @@ public class Taller02 {
         if(index >= nums.length){
             return target == 0;
         }else{
-            boolean Universo1 = SumaGrupoBasico(index+1, nums, target-nums[index]);
-            if(Universo1){
+            boolean prueba1 = SumaGrupoBasico(index+1, nums, target-nums[index]);
+            if(prueba1){
                 return true;
             }else{
-                boolean Universo2 = SumaGrupoBasico(index+1, nums, target);
-                return Universo2;
+                boolean prueba2 = SumaGrupoBasico(index+1, nums, target);
+                return prueba2;
             }
         }
     }
