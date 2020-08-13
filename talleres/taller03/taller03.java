@@ -1,5 +1,5 @@
 
-public class taller03
+public class Taller03
 {
     public static void main(String[] args){
         hanoi(5);
