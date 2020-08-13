@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Hanoi
-comment1.params=disc
-comment1.target=void\ hanoi(int)
-comment2.params=disc\ a\ b\ c
-comment2.target=void\ hanoi(int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
-comment3.params=args
-comment3.target=void\ main(java.lang.String[])
-numComments=4
