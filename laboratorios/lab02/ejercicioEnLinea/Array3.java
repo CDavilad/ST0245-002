@@ -1,4 +1,6 @@
 
+package Lab2;
+
 public class Array3{
     public int[] fix34(int[] nums){
         for(int i = 0; i < nums.length; i++){
@@ -42,5 +44,45 @@ public class Array3{
             }
         }
         return false;
+    }
+    
+    public int maxSpan(int[] nums) {
+        int var1 = 0;
+        int var2 = 0;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums.length; j++) {
+                if(nums[i]==nums[j]){
+                    var1 = j-i+1;
+                }
+                if(var1>var2){
+                    var2=var1;
+                }
+            }
+        }
+        return var2;
+    }
+    
+    public int maxMirror(int[] nums) {
+        int var1 = 0;
+        int var2 = 0;
+        for (int i = 0; i < nums.length; i++) {
+            var1 = 0;
+            for (int j = nums.length-1; j >= 0&&i+var1<nums.length; j--) {
+                if(nums[i+var1]==nums[j]){
+                    var1++;
+                }else{
+                    if(var1>0){
+                        if(var1>var2){
+                        var2 = var1;
+                        }
+                    }
+                    var1 = 0;
+                }
+            }
+            if(var1>var2){
+                var2 = var1;
+            }
+        }
+        return var2; 
     }
 }
