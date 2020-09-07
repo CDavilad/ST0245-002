@@ -15,7 +15,7 @@ public class Array3{
             }
         }
         return nums;
-    }
+    }                                             //O(n^2)
 
     public int[] fix45(int[] nums) {
         int j = 0;
@@ -29,7 +29,7 @@ public class Array3{
             }
         }
         return nums;
-    }
+    }                                             
 
     public boolean canBalance(int[] nums) {
         int sumaIz = 0;
@@ -84,5 +84,5 @@ public class Array3{
             }
         }
         return var2; 
-    }
+    }                                    
 }
