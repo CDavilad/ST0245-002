@@ -24,7 +24,7 @@ public class Array2{
             }
         }
         return max-min;
-    }
+    }                                           //O(n)
     
     public int[] zeroFront(int[] nums) {
         int variableAux;
@@ -37,7 +37,7 @@ public class Array2{
                 }
             }
         }
-        return nums;
+        return nums;                          //O(n^2)
     }
     
     public boolean tripleUp(int[] nums) {
@@ -47,7 +47,7 @@ public class Array2{
                 indicador = true;
             }
         }
-        return indicador;
+        return indicador;     //O(n)
     }
     
     public boolean isEverywhere(int[] nums, int val) {
@@ -57,5 +57,5 @@ public class Array2{
             }
         }
         return true;
-    }
+    }                         //O(n)
 }
