@@ -1,7 +1,6 @@
 import java.util.Stack;
 import java.util.Queue;
 import java.util.LinkedList;
-import java.util.ArrayList;
 public class Taller08
 {
     public static int polacaInversa(String s){
