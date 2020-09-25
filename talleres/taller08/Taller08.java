@@ -55,42 +55,5 @@ public class Taller08
         }
     }
     
-    public static void main(String[] args){
-        Stack<Nevera> neveras = new Stack();
-        Nevera n1 = new Nevera(1, "haceb");
-        Nevera n2 = new Nevera(2, "lg");
-        Nevera n3 = new Nevera(3, "ibm");
-        Nevera n4 = new Nevera(4, "haceb");
-        Nevera n5 = new Nevera(5, "lg");
-        Nevera n6 = new Nevera(6, "ibm");
-        Nevera n7 = new Nevera(7, "haceb");
-        Nevera n8 = new Nevera(8, "lg");
-        Nevera n9 = new Nevera(9, "ibm");
-        neveras.push(n1);
-        neveras.push(n2);
-        neveras.push(n3);
-        neveras.push(n4);
-        neveras.push(n5);
-        neveras.push(n6);
-        neveras.push(n7);
-        neveras.push(n8);
-        neveras.push(n9);
-        neveras.push(n8);
-        neveras.push(n9);
-        
-        Queue<Solicitud> solicitudes = new LinkedList<Solicitud>();
-        
     
-        Solicitud s1 = new Solicitud("eafit", 10);
-        Solicitud s2 = new Solicitud("la14", 2);
-        Solicitud s3 = new Solicitud("olimpica", 4);
-        Solicitud s4 = new Solicitud("exito", 1);
-        solicitudes.add(s4);
-        solicitudes.add(s3);
-        solicitudes.add(s2);
-        solicitudes.add(s1);
-        
-       
-        Taller08.ejercicio2(neveras,solicitudes);
-    }
 }
