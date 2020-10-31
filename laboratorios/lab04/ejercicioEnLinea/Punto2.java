@@ -29,7 +29,7 @@ public class Punto2{
         return nodos;
     }
     
-    public static void posWenas(Nodo n){
+    public static void posOrden(Nodo n){
         if(n != null){
             posWenas(n.izq);
             posWenas(n.der);
@@ -41,6 +41,6 @@ public class Punto2{
         int[] t = {50, 30, 24, 5, 28, 45, 98, 52, 60};
         Punto2 p = new Punto2();
         p.arbol(t);
-        posWenas(nodo);
+        posOrden(nodo);
     }
 }
