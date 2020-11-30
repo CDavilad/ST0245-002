@@ -30,10 +30,4 @@ public class Lector{
         }
         return data1;
     }
-
-    public static void main(String args[]) {
-        ArrayList<String[]> arr = main("C:\\Sistemas\\EDA\\4_train_balanced_135000.csv");
-        //("D:\\SEMESTRE2\\Algoritmos\\2_train_balanced_75000.csv");
-        //("D:\\SEMESTRE2\Algoritmos\\0_train_balanced_15000.csv");
-    }
 }
